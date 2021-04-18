@@ -1,0 +1,74 @@
+
+body {
+  display: flex;
+  flex-direction: column;
+  font-family: "Open Sans";
+  font-size: 18px;
+}
+.list-container{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 3rem;
+  justify-content: space-evenly;
+}
+p{ color: #1F2025 }
+
+.App-header{
+  font-size: 70px;
+  text-align: center;
+}
+.User{
+  text-align: center;
+  padding: 2%;
+  border : 2px solid black;
+  overflow-wrap: break-word;
+  text-decoration:  none;
+}
+.User:hover{
+    background-color: #e6e6e6;
+}
+
+.User-title{
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration:  none;
+}
+
+.User-image{
+    position: relative;
+    box-shadow: whitesmoke 2px;
+    margin-top: 1%;
+    margin-bottom: 5%;
+}
+
+.User-image img{
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+    background: blue;
+}
+.stats{
+  align-items: center;
+  padding: 2%;
+  width: 35%;
+  border : 2px solid black;
+  text-decoration:  none;
+}
+.User-info{
+  margin-left: 3%;
+  margin-right: 3%;
+}
+.User-description-1 {
+  font-style: italic;
+}
+.links-title{
+  text-align: center;
+}
+.links{
+  margin-top: 4%;
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  color: black;
+}
+
