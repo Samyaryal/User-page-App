@@ -13,12 +13,12 @@ const UserPage = () => {
 				<Link to="/"><button className="btn btn-primary">Back to Home</button></Link>
 			</div>
 			<div className="user-info">
-				<p>name: {eachData.name}</p>
-				<p>username: {eachData.username}</p>
-				<p>email: {eachData.email}</p>
-				<p>phone:{eachData.phone}</p>
-				<p>company: {eachData.company.name}</p>
-				<p>	website: https://{eachData.website}</p>
+				<p>-name: {eachData.name}</p>
+				<p>-username: {eachData.username}</p>
+				<p>-email: {eachData.email}</p>
+				<p>-phone:{eachData.phone}</p>
+				<p>-company: {eachData.company.name}</p>
+				<p>-website: https://{eachData.website}</p>
 				<ul className="user-details">
 					<li>street: {eachData.address.street}</li>
 					<li>suite: {eachData.address.suite}</li>

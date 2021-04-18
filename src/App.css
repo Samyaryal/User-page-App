@@ -39,6 +39,7 @@ main {
   margin-bottom: 1.9em;
 }
 .user-info{
+  font-weight: bold;
   font-size: 20px;
   line-height: 1em;
   padding: 30px;
